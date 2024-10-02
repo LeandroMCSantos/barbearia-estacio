@@ -55,10 +55,51 @@ header {
     height: auto;
     border-radius: 8px; 
     margin: 10px; 
+    transition: transform 0.3s ease; 
 }
 
+.service-image:hover {
+    transform: scale(1.05); 
+}
+
+a {
+    color: #e50914; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.sobre {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.sobre h2 {
+    text-align: center;
+    color: #333;
+}
+
+.sobre p {
+    text-align: center;
+    font-size: 18px;
+}
+
+footer {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    text-align: center; 
+}
 
 @media (max-width: 768px) {
+    body {
+        font-size: 14px; 
+    }
+
     .header-content {
         flex-direction: column; 
         align-items: center;
@@ -70,5 +111,9 @@ header {
 
     .service-image {
         width: 80px; 
+    }
+
+    .container {
+        padding: 10px; 
     }
 }
