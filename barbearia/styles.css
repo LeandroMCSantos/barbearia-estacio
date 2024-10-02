@@ -95,6 +95,27 @@ footer {
     text-align: center; 
 }
 
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; 
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #e50914; 
+}
+
+th {
+    background-color: #e50914; 
+    color: white; 
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f4f4f4; 
+}
+
 @media (max-width: 768px) {
     body {
         font-size: 14px; 
